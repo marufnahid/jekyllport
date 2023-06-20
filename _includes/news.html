@@ -1,0 +1,43 @@
+<div class="elisc_tm_section" id="news">
+    <div class="elisc_tm_news fn_w_sminiboxes">
+        <div class="tm_content">
+            <div class="news_wrapper">
+                <div class="top_part mb-5">
+                    <div class="elisc_tm_sticky_section">
+                        <div class="elisc_tm_title">
+                            <span>- Blog</span>
+                            <h3>My blog &amp; news</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom_part">
+                    <div class="elisc_tm_sticky_section">
+                        <div class="list">
+                            <ul>
+                                {% for post in site.posts %}
+                                <li>
+                                    <div class="list_inner">
+                                        <div class="info">
+                                            <div class="meta">
+                                                <img class="svg" src="{{ site.baseurl }}/assets/img/icons/calendar.svg" alt="" />
+                                                <span>{{ post.date | date: "%B %d, %Y" }}</span>
+                                            </div>
+                                            <div class="title">
+                                                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                                            </div>
+                                        </div>
+                                        <div class="elisc_tm_read_more">
+                                            <a class="line_effect" href="{{ post.url }}">Learn More<span><img class="svg"
+                                                        src="{{ site.baseurl }}/assets/img/icons/rightArrow.svg" alt="" /></span></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

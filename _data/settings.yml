@@ -1,0 +1,495 @@
+---
+#-------------------------------
+# General Site Settings
+
+title: JekyllPort
+logo: 
+author: Mohammad Maruf
+description: this is meta description
+email: steve.fruits@email.com
+phone: +880 2544 658 256
+address: 125/A, CA Commercial Area, California, USA
+copyright: Copyright &copy; 2023 Designed by  <a target="_blank" href="https://themesvro.com"> Themesvro </a> & Developed by <a href="https://marufnahid.me" target="_blank" >Maruf</a>
+
+menu:
+  - { name: Home, link: "#home" }
+  - { name: Blog, link: "#news" }
+  - { name: Portfolio, link: "#portfolio" }
+  - { name: Contact, link: "#contact" }
+  - { name: Service, link: "#service" }
+  - { name: Experience, link: "#experience" }
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+#-------------------------------
+# Sidebar Section
+
+thumb:
+    url: "assets/img/thumbs/1-1.jpg"
+    data: "assets/img/testimonials/1.jpg"
+
+
+social:
+  - { icon: "assets/img/icons/twitter.svg", link: "#" }
+  - { icon: "assets/img/icons/github.svg", link: "#" }
+  - { icon: "assets/img/icons/skype.svg", link: "#" }
+  - { icon: "assets/img/icons/linkedin.svg", link: "#" }
+    
+
+#-------------------------------
+# Hero Section
+ 
+hero:
+  title: Hi! I’m 
+  subtitle: I'm a <span class="blueColor">Full Stack Developer</span>  with <span class="blueColor">5+ years</span> of experience &amp; great love of <span class="blueColor">PHP</span>, <span class="blueColor">Laravel</span>, <span class="blueColor">Vue.js</span>, <span class="blueColor">WordPress</span> &amp; <span class="blueColor">MySQL</span>.
+  based-on: Based on Florida
+  project: Get a Project
+  project-link: "#portfolio"
+  contact: Let's talk
+  contact-link: "#contact"
+  image: "assets/img/about/2.png"
+  tags:
+    - Creative
+    - Designer
+    - Coder
+    - Developer
+  
+#-------------------------------
+# About Section
+
+about:
+  title: About Me
+  subtitle: Nice to meet you!
+  project: Get a Project
+  project-link: "#portfolio"
+  description:  <p> Hello there! My name is <span class="yellowColor">Moahammad Maruf</span>. I am a Full Stack Developer and I'm very passionate and dedicated to my work.</p>
+                <p>With 5+ years experience as a professional a web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the build website process, from discussion and collaboration.</p>
+  counter:
+    - { title: "Years of Experience", value: "5+" }
+    - { title: "Happy Clients", value: "50+" }
+    - { title: "Projects Completed", value: "10+" }
+
+  info:
+    - { title: "Age", value: "25" }
+    - { title: "Mail", value: "maruf155714@gmail.com" }
+    - { title: "Phone", value: "+8801521727413" }
+
+#-------------------------------
+# Experience Section
+
+experience:
+    title: -Experience
+    subtitle: Experience I have earned
+    list:
+      - period: -2015 - 2018
+        image: "assets/img/experience/3.jpg"
+        designation: WordPress Developer
+        company: Themexplosion
+        excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+        description: p>Elisc is a leading web design agency with an
+                    award-winning design team that creates innovative,
+                    effective websites that capture your brand, improve your
+                    conversion rates, and maximize your revenue to help grow
+                    your business and achieve your goals.</p>
+                    <p>In today’s digital world, your website is the first
+                    nteraction consumers have with your business. That's
+                    why almost 95 percent of a user’s first impression
+                    relates to web design. It’s also why web design services
+                    can have an immense impact on your company’s bottom line.</p>
+                    <p>That’s why more companies are not only reevaluating their
+                    website’s design but also partnering with Elisc, the web
+                    design agency that’s driven more than $2.4 billion in
+                    revenue for its clients. With over 50 web design awards
+                    under our belt, we're confident we can design a custom
+                    website that drives sales for your unique business.</p>
+      - period: -2015 - 2018
+        image: "assets/img/experience/2.jpg"
+        designation: Web Developer
+        company: ThemeFisher
+        excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+        description: p>Elisc is a leading web design agency with an
+                    award-winning design team that creates innovative,
+                    effective websites that capture your brand, improve your
+                    conversion rates, and maximize your revenue to help grow
+                    your business and achieve your goals.</p>
+                    <p>In today’s digital world, your website is the first
+                    nteraction consumers have with your business. That's
+                    why almost 95 percent of a user’s first impression
+                    relates to web design. It’s also why web design services
+                    can have an immense impact on your company’s bottom line.</p>
+                    <p>That’s why more companies are not only reevaluating their
+                    website’s design but also partnering with Elisc, the web
+                    design agency that’s driven more than $2.4 billion in
+                    revenue for its clients. With over 50 web design awards
+                    under our belt, we're confident we can design a custom
+                    website that drives sales for your unique business.</p>
+      - period: -2015 - 2018
+        image: "assets/img/experience/4.jpg"
+        designation: Web Developer
+        company: ThemeFisher
+        excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+        description: p>Elisc is a leading web design agency with an
+                    award-winning design team that creates innovative,
+                    effective websites that capture your brand, improve your
+                    conversion rates, and maximize your revenue to help grow
+                    your business and achieve your goals.</p>
+                    <p>In today’s digital world, your website is the first
+                    nteraction consumers have with your business. That's
+                    why almost 95 percent of a user’s first impression
+                    relates to web design. It’s also why web design services
+                    can have an immense impact on your company’s bottom line.</p>
+                    <p>That’s why more companies are not only reevaluating their
+                    website’s design but also partnering with Elisc, the web
+                    design agency that’s driven more than $2.4 billion in
+                    revenue for its clients. With over 50 web design awards
+                    under our belt, we're confident we can design a custom
+                    website that drives sales for your unique business.</p>
+
+      - period: -2015 - 2018
+        image: "assets/img/experience/1.jpg"
+        designation: Web Developer
+        company: ThemeFisher
+        excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+        description: p>Elisc is a leading web design agency with an
+                    award-winning design team that creates innovative,
+                    effective websites that capture your brand, improve your
+                    conversion rates, and maximize your revenue to help grow
+                    your business and achieve your goals.</p>
+                    <p>In today’s digital world, your website is the first
+                    nteraction consumers have with your business. That's
+                    why almost 95 percent of a user’s first impression
+                    relates to web design. It’s also why web design services
+                    can have an immense impact on your company’s bottom line.</p>
+                    <p>That’s why more companies are not only reevaluating their
+                    website’s design but also partnering with Elisc, the web
+                    design agency that’s driven more than $2.4 billion in
+                    revenue for its clients. With over 50 web design awards
+                    under our belt, we're confident we can design a custom
+                    website that drives sales for your unique business.</p>
+
+#-----------------
+# Service Section
+
+service:
+   title: -Services
+   subtitle: What I do
+   btn-icon: "assets/img/icons/rightArrow.svg"
+   btn-text: Read More
+   list:
+     - image: "assets/img/service/1.jpg"
+       title: Web Design
+       excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+       btn-link: "#"
+       description: p>Elisc is a leading web design agency with an
+                    award-winning design team that creates innovative,
+                    effective websites that capture your brand, improve your
+                    conversion rates, and maximize your revenue to help grow
+                    your business and achieve your goals.</p>
+                    <p>In today’s digital world, your website is the first
+                    nteraction consumers have with your business. That's
+                    why almost 95 percent of a user’s first impression
+                    relates to web design. It’s also why web design services
+                    can have an immense impact on your company’s bottom line.</p>
+                    <p>That’s why more companies are not only reevaluating their
+                    website’s design but also partnering with Elisc, the web
+                    design agency that’s driven more than $2.4 billion in
+                    revenue for its clients. With over 50 web design awards
+                    under our belt, we're confident we can design a custom
+                    website that drives sales for your unique business.</p>
+
+     - image: "assets/img/service/2.jpg"
+       title: Web Development
+       excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+       btn-link: "#"
+       description: p>Elisc is a leading web design agency with an
+                    award-winning design team that creates innovative,
+                    effective websites that capture your brand, improve your
+                    conversion rates, and maximize your revenue to help grow
+                    your business and achieve your goals.</p>
+                    <p>In today’s digital world, your website is the first
+                    nteraction consumers have with your business. That's
+                    why almost 95 percent of a user’s first impression
+                    relates to web design. It’s also why web design services
+                    can have an immense impact on your company’s bottom line.</p>
+                    <p>That’s why more companies are not only reevaluating their
+                    website’s design but also partnering with Elisc, the web
+                    design agency that’s driven more than $2.4 billion in
+                    revenue for its clients. With over 50 web design awards
+                    under our belt, we're confident we can design a custom
+                    website that drives sales for your unique business.</p>
+       
+     - image: "assets/img/service/2.jpg"
+       title: Web Development
+       excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+       btn-link: "#"
+       description: p>Elisc is a leading web design agency with an
+                    award-winning design team that creates innovative,
+                    effective websites that capture your brand, improve your
+                    conversion rates, and maximize your revenue to help grow
+                    your business and achieve your goals.</p>
+                    <p>In today’s digital world, your website is the first
+                    nteraction consumers have with your business. That's
+                    why almost 95 percent of a user’s first impression
+                    relates to web design. It’s also why web design services
+                    can have an immense impact on your company’s bottom line.</p>
+                    <p>That’s why more companies are not only reevaluating their
+                    website’s design but also partnering with Elisc, the web
+                    design agency that’s driven more than $2.4 billion in
+                    revenue for its clients. With over 50 web design awards
+                    under our belt, we're confident we can design a custom
+                    website that drives sales for your unique business.</p>
+      
+     - image: "assets/img/service/2.jpg"
+       title: Web Development
+       excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+       btn-link: "#"
+       description: p>Elisc is a leading web design agency with an
+                    award-winning design team that creates innovative,
+                    effective websites that capture your brand, improve your
+                    conversion rates, and maximize your revenue to help grow
+                    your business and achieve your goals.</p>
+                    <p>In today’s digital world, your website is the first
+                    nteraction consumers have with your business. That's
+                    why almost 95 percent of a user’s first impression
+                    relates to web design. It’s also why web design services
+                    can have an immense impact on your company’s bottom line.</p>
+                    <p>That’s why more companies are not only reevaluating their
+                    website’s design but also partnering with Elisc, the web
+                    design agency that’s driven more than $2.4 billion in
+                    revenue for its clients. With over 50 web design awards
+                    under our belt, we're confident we can design a custom
+                    website that drives sales for your unique business.</p>
+      
+     - image: "assets/img/service/2.jpg"
+       title: Web Development
+       excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+       btn-link: "#"
+       description: p>Elisc is a leading web design agency with an
+                    award-winning design team that creates innovative,
+                    effective websites that capture your brand, improve your
+                    conversion rates, and maximize your revenue to help grow
+                    your business and achieve your goals.</p>
+                    <p>In today’s digital world, your website is the first
+                    nteraction consumers have with your business. That's
+                    why almost 95 percent of a user’s first impression
+                    relates to web design. It’s also why web design services
+                    can have an immense impact on your company’s bottom line.</p>
+                    <p>That’s why more companies are not only reevaluating their
+                    website’s design but also partnering with Elisc, the web
+                    design agency that’s driven more than $2.4 billion in
+                    revenue for its clients. With over 50 web design awards
+                    under our belt, we're confident we can design a custom
+                    website that drives sales for your unique business.</p>
+      
+     - image: "assets/img/service/2.jpg"
+       title: Web Development
+       excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+       btn-link: "#"
+       description: p>Elisc is a leading web design agency with an
+                    award-winning design team that creates innovative,
+                    effective websites that capture your brand, improve your
+                    conversion rates, and maximize your revenue to help grow
+                    your business and achieve your goals.</p>
+                    <p>In today’s digital world, your website is the first
+                    nteraction consumers have with your business. That's
+                    why almost 95 percent of a user’s first impression
+                    relates to web design. It’s also why web design services
+                    can have an immense impact on your company’s bottom line.</p>
+                    <p>That’s why more companies are not only reevaluating their
+                    website’s design but also partnering with Elisc, the web
+                    design agency that’s driven more than $2.4 billion in
+                    revenue for its clients. With over 50 web design awards
+                    under our belt, we're confident we can design a custom
+                    website that drives sales for your unique business.</p>
+        
+# -------------------------------
+# Contact Section
+
+contact:
+   title: -Let's Connect
+   subtitle: Get in touch
+   content: |
+            I'm currently avaliable to take on new projects, so feel free to send me
+            a message about anything that you want to run past me. You can contact
+            anytime at 24/7
+
+   form-action: https://formspree.io/f/xayzvryl
+   submit: Submit Now
+
+# -------------------------------
+# Blog Section
+
+blog:
+    title: -Blog
+    subtitle: My blog &amp; news
+
+    btn-link: "#"
+    btn-name: View All
+    blog-item:
+      - image: "assets/img/blog/1.jpg"
+        title: Web Development
+        excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+        btn-link: "#"
+        btn-name: Read More
+        
+      - image: "assets/img/blog/2.jpg"
+        title: Web Development
+        excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+        btn-link: "#"
+        btn-name: Read More
+        
+      - image: "assets/img/blog/3.jpg"
+        title: Web Development
+        excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+        btn-link: "#"
+        btn-name: Read More
+        
+      - image: "assets/img/blog/4.jpg"
+        title: Web Development
+        excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+        btn-link: "#"
+        btn-name: Read More
+        
+      - image: "assets/img/blog/5.jpg"
+        title: Web Development
+        excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+        btn-link: "#"
+        btn-name: Read More
+        
+      - image: "assets/img/blog/6.jpg"
+        title: Web Development
+        excerpt: Website development is the process of building, programming, coding and maintaining websites and web applications.
+        btn-link: "#"
+        btn-name: Read More
+
+
+# -------------------------------
+# Portfolio Section
+
+portfolio:
+      thumb: "assets/img/thumbs/31-36.jpg"
+      list:
+         - image: "assets/img/portfolio/1.jpg"
+           title: Web Development
+           category: Youtube
+           btn-link: "https://www.youtube.com/watch?v=7e90gBu4pas"
+
+         - image: "assets/img/portfolio/2.jpg"
+           title: Web Development
+           category: Vimeo
+           btn-link: "https://vimeo.com/1084537"
+
+         - image: "assets/img/portfolio/3.jpg"
+           title: Web Development
+           category: Youtube
+           btn-link: "https://www.youtube.com/watch?v=7e90gBu4pas"
+
+         - image: "assets/img/portfolio/4.jpg"
+           title: Web Development
+           category: Vimeo
+           btn-link: "https://vimeo.com/1084537"
+           full-post:
+                - description: |
+                      <p>We live in a world where we need to move quickly and
+                      iterate on our ideas as flexibly as possible. Building
+                      mockups strikes the ideal balance ease of modification.
+                      Building mockups strikes the ideal balance ease of
+                      modification.</p>
+                      <p>Mockups are useful both for the creative phase of the
+                      project - for instance when you're trying to figure out
+                      your user flows or the proper visual hierarchy - and the
+                      production phase when they phase when they will
+                      represent the target product. Building mockups strikes
+                      the ideal balance ease of modification.</p>
+                  client: "Client"
+                  client-name: "John Doe"	
+                  category: "Web Design"
+                  cat-link: "#"
+                  date: "20th June 2019"
+                  tags: "Design, Web, Development"
+                  social-share:
+                        - facebook: "https://www.facebook.com/"
+                        - twitter: "https://twitter.com/"
+                        - instagram: "https://www.instagram.com/"
+
+
+
+
+# -------------------------------
+# Clients Section
+
+client:
+     title: -Clients
+     subtitle: Trusted by companies
+     client-list:
+            - image: "assets/img/partners/1.png"
+              link: "#"
+
+            - image: "assets/img/partners/2.png"
+              link: "#"
+
+            - image: "assets/img/partners/3.png"
+              link: "#"
+
+            - image: "assets/img/partners/4.png"
+              link: "#"
+
+            - image: "assets/img/partners/5.png" 
+              link: "#"
+
+            - image: "assets/img/partners/6.png"
+              link: "#"
+
+            - image: "assets/img/partners/7.png"
+              link: "#"
+
+            - image: "assets/img/partners/8.png"
+              link: "#"
+
+
+# -------------------------------
+# Testimonial Section
+
+testimonial:
+        title: -Clients
+        subtitle: What clients say about me
+        list:
+           - image: "assets/img/testimonials/1.jpg"
+             name: John Doe
+             designation: CEO
+             description: |
+                      I rarely like to write reviews, but the Marketify team truly
+                      deserve a standing ovation for their customer support,
+                      customisation and most importantly, friendliness and
+                      professionalism.
+
+           - image: "assets/img/testimonials/2.jpg"
+             name: John Doe
+             designation: CEO
+             description: |
+                      I rarely like to write reviews, but the Marketify team truly
+                      deserve a standing ovation for their customer support,
+                      customisation and most importantly, friendliness and
+                      professionalism.
+
+           - image: "assets/img/testimonials/3.jpg"
+             name: John Doe
+             designation: CEO
+             description: |
+                      I rarely like to write reviews, but the Marketify team truly
+                      deserve a standing ovation for their customer support,
+                      customisation and most importantly, friendliness and
+                      professionalism.

@@ -1,0 +1,30 @@
+<div class="elisc_tm_mobile_menu">
+    <div class="inner">
+        <div class="wrapper">
+            <div class="avatar">
+                <div class="image" data-img-url="assets/img/testimonials/1.jpg"></div>
+            </div>
+            <div class="menu_list">
+                <ul class="anchor_nav">
+                    {% for item in site.data.settings.menu %}
+                    {% if forloop.first %}
+                      <li class="current"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                    {% else %}
+                      <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+            </div>
+            <div class="social">
+                <ul>
+                    {% for item in site.data.settings.social %}
+                    <li><a href="{{ item.link }}"><img class="svg" src="{{ item.icon }}" alt="" /></a></li>
+                    {% endfor %}ø
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>{{ site.data.settings.copyright }}</p>
+            </div>
+        </div>
+    </div>
+</div>

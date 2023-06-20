@@ -1,0 +1,71 @@
+<div class="elisc_tm_section" id="about">
+    <div class="elisc_tm_about">
+        <div class="tm_content">
+            <div class="elisc_tm_biography">
+                <div class="left">
+                    <div class="title">
+                        <span class="mini">{{ site.data.settings.about.subtitle }}</span>
+                            <h3 class="name">{{ site.data.settings.author }}</h3>
+                            <span class="job">
+                                <span class="cd-headline rotate-1">
+                                    <span class="blc">{{ site.data.settings.hero.tags[0] }}</span>
+                                    <span class="cd-words-wrapper">
+                                        <b class="is-visible">{{ site.data.settings.hero.tags[1] }}</b>
+                                        <b>{{ site.data.settings.hero.tags[2] }}</b>
+                                        <b>{{ site.data.settings.hero.tags[3] }}</b>
+                                    </span>
+                                </span>
+                            </span>
+                    </div>
+                    <div class="elisc_tm_button">
+                        <a class="anchor" href="{{ site.data.settings.about.project-link }}">{{
+                            site.data.settings.about.project }}</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="text">
+                        {{ site.data.settings.about.description | markdownify }}
+                    </div>
+                    <div class="info">
+                        <ul>
+                            {% for item in site.data.settings.about.info %}
+                            {% if "Mail" == item.title %}
+                            <li>
+                                <span>{{ item.title }}</span>
+                                <span><a
+                                        href="mailto:{{ item.value}}"><span>maruf155714@gmail.com</span></a></span>
+                            </li>
+                            {% elsif "Phone" == item.title %}
+                            <li>
+                                <span>{{ item.title }}</span>
+                                <span><a href="tel:{{ item.value }}">{{ item.value }}</a></span>
+                            </li>
+                            {% else %}
+                            <li>
+                                <span>{{ item.title }}</span>
+                                <span>{{ item.value }}</span>
+                            </li>
+                            {% endif %}
+                            {% endfor %}
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="elisc_tm_counter">
+                <ul>
+                    {% for item in site.data.settings.about.counter %}
+                    <li>
+                        <div class="list_inner">
+                            <h3>{{ item.value}}</h3>
+                            <span>{{ item.title }}</span>
+                        </div>
+                    </li>
+                    {% endfor %}
+
+                </ul>
+            </div>
+        </div>
+        {% include experience.html %}
+    </div>
+</div>

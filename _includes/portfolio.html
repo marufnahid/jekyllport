@@ -1,0 +1,216 @@
+<div class="elisc_tm_section" id="portfolio">
+    <div class="elisc_tm_portfolio">
+        <div class="tm_content">
+            <div class="elisc_tm_portfolio_title">
+                <div class="elisc_tm_title">
+                    <span>- Projects</span>
+                    <h3>Recent completed works</h3>
+                </div>
+                <div class="buttons">
+                    <a class="prev_button" href="#"><img class="svg" src="assets/img/icons/prev.svg"
+                            alt="" /></a>
+                    <a class="next_button" href="#"><img class="svg" src="assets/img/icons/next.svg"
+                            alt="" /></a>
+                </div>
+            </div>
+            <div class="portfolio_list">
+                <ul class="owl-carousel gallery_zoom">
+                    <li>
+                        <div class="list_inner">
+                            <div class="image">
+                                <img src="assets/img/thumbs/31-36.jpg" alt="" />
+                                <div class="main" data-img-url="assets/img/portfolio/1.jpg"></div>
+                                <a class="elisc_tm_full_link popup-youtube"
+                                    href="https://www.youtube.com/watch?v=7e90gBu4pas"></a>
+                            </div>
+                            <div class="details">
+                                <span class="category"><a href="#">Youtube</a></span>
+                                <h3 class="title"><a class="line_effect popup-youtube"
+                                        href="https://www.youtube.com/watch?v=7e90gBu4pas">New
+                                        Technology</a></h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list_inner">
+                            <div class="image">
+                                <img src="assets/img/thumbs/31-36.jpg" alt="" />
+                                <div class="main" data-img-url="assets/img/portfolio/2.jpg"></div>
+                                <a class="elisc_tm_full_link popup-vimeo"
+                                    href="https://vimeo.com/337293658"></a>
+                            </div>
+                            <div class="details">
+                                <span class="category"><a href="#">Vimeo</a></span>
+                                <h3 class="title"><a class="line_effect popup-vimeo"
+                                        href="https://vimeo.com/337293658">Firogo Majestic Ltd.</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list_inner">
+                            <div class="image">
+                                <img src="assets/img/thumbs/31-36.jpg" alt="" />
+                                <div class="main" data-img-url="assets/img/portfolio/3.jpg"></div>
+                                <a class="elisc_tm_full_link soundcloude_link mfp-iframe audio"
+                                    href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></a>
+                            </div>
+                            <div class="details">
+                                <span class="category"><a href="#">Soundcloud</a></span>
+                                <h3 class="title"><a
+                                        class="line_effect soundcloude_link mfp-iframe audio"
+                                        href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">Creative
+                                        Building</a></h3>
+                            </div>
+                        </div>
+                    </li>
+
+                    {% for item in site.data.settings.protfolio.list %}
+                    <li>
+                        <div class="list_inner">
+                            <div class="image">
+                                <img src="assets/img/thumbs/31-36.jpg" alt="" />
+                                <div class="main" data-img-url="{{ item.image }}"></div>
+                                <a class="elisc_tm_full_link portfolio_popup" href="#"></a>
+                            </div>
+                            <div class="details">
+                                <span class="category"><a href="#">{{ item.category }}</a></span>
+                                <h3 class="title"><a class="line_effect portfolio_popup"
+                                        href="#">{{ item.title }}</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="hidden_content_portfolio">
+                            <div class="popup_details">
+                                <div class="main_details">
+                                    <div class="textbox">
+                                       {{ item.full-post.description }}
+                                    </div>
+                                    <div class="detailbox">
+                                        <ul>
+                                            <li>
+                                                <span class="first">Client</span>
+                                                <span>Alvaro Morata</span>
+                                            </li>
+                                            <li>
+                                                <span class="first">Category</span>
+                                                <span><a href="#">Modalbox</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="first">Date</span>
+                                                <span>April 10, 2023</span>
+                                            </li>
+                                            <li>
+                                                <span class="first">Share</span>
+                                                <ul class="share">
+                                                    <li><a href="#"><img class="svg"
+                                                                src="assets/img/icons/facebook.svg"
+                                                                alt="" /></a></li>
+                                                    <li><a href="#"><img class="svg"
+                                                                src="assets/img/icons/twitter.svg"
+                                                                alt="" /></a></li>
+                                                    <li><a href="#"><img class="svg"
+                                                                src="assets/img/icons/instagram.svg"
+                                                                alt="" /></a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="additional_images">
+                                    <ul>
+                                        <li>
+                                            <div class="list_inner">
+                                                <div class="my_image">
+                                                    <img src="assets/img/thumbs/4-2.jpg" alt="" />
+                                                    <div class="main"
+                                                        data-img-url="assets/img/portfolio/5.jpg"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="list_inner">
+                                                <div class="my_image">
+                                                    <img src="assets/img/thumbs/4-2.jpg" alt="" />
+                                                    <div class="main"
+                                                        data-img-url="assets/img/portfolio/6.jpg"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="list_inner">
+                                                <div class="my_image">
+                                                    <img src="assets/img/thumbs/4-2.jpg" alt="" />
+                                                    <div class="main"
+                                                        data-img-url="assets/img/portfolio/7.jpg"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                    {% endfor %}
+                </ul>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="elisc_tm_partners">
+        <div class="tm_content">
+            <div class="elisc_tm_title">
+                <span>{{ site.data.settings.client.title }}</span>
+                <h3>{{ site.data.settings.client.subtitle }}</h3>
+            </div>
+            <div class="partners_inner">
+                <ul>
+                 {% for item in site.data.settings.client.client-list %}
+                    <li>
+                        <div class="list_inner">
+                            <img src="{{ item.image }}" alt="" />
+                            <a class="elisc_tm_full_link"  href="{{ item.link }}"></a>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="elisc_tm_testimonial_wrapper">
+        <div class="tm_content">
+            <div class="elisc_tm_testimonials">
+                <div class="elisc_tm_title" data-position="center">
+                    <span>{{ site.data.settings.testimonial.title }}</span>
+                    <h3>{{ site.data.settings.testimonial.subtitle }}</h3>
+                </div>
+                <div class="testimonials_list">
+                    <ul class="owl-carousel owl-theme">
+                        {% for item in site.data.settings.testimonial.list %}
+                        <li>
+                            <div class="text">
+                                <p>{{ item.description }}</p>
+                            </div>
+                            <div class="short">
+                                <div class="image">
+                                    <div class="main" data-img-url="{{ item.image}}"></div>
+                                </div>
+                                <div class="detail">
+                                    <h3>{{ item.name }}</h3>
+                                </div>
+                            </div>
+                            <p class="job">{{ item.designation }}</p>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

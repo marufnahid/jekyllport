@@ -1,0 +1,52 @@
+{% assign fullName = {{site.data.settings.author}} %}
+{% assign nameParts = fullName | split: " " %}
+{% assign lastName = nameParts.last %}
+<div class="elisc_tm_section animated" id="home">
+    <div class="elisc_tm_home">
+        <div class="tm_content">
+            <div class="details">
+                <div class="left">
+                    <div class="title">
+                        <h3>{{ site.data.settings.hero.title }} {{ " " }}{{ lastName }}</span></h3>
+                        <h3>
+                            <span class="cd-headline rotate-1">
+                                <span class="blc">{{ site.data.settings.hero.tags[0] }}</span>
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible">{{ site.data.settings.hero.tags[1] }}</b>
+                                    <b>{{ site.data.settings.hero.tags[2] }}</b>
+                                    <b>{{ site.data.settings.hero.tags[3] }}</b>
+                                </span>
+                            </span>
+                        </h3>
+                        <h3>{{ site.data.settings.hero.based-on }}</h3>
+                    </div>
+                    <div class="subtitle">
+                        <p>{{ site.data.settings.hero.subtitle }}</p>
+                    </div>
+                    <div class="buttons">
+                        <div class="elisc_tm_button">
+                            <a class="anchor" href="{{ site.data.settings.hero.project-link }}">{{ site.data.settings.hero.project }}</a>
+                        </div>
+                        <div class="elisc_tm_button" data-style="border">
+                            <a class="anchor" href="{{ site.data.settings.hero.contact-link }}">{{ site.data.settings.hero.contact }}</a>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <ul>
+                            <li><a href="tel:{{ site.data.settings.phone }}">{{ site.data.settings.phone }}</a></li>
+                            <li><a href="mailto:{{ site.data.settings.email }}"><span>{{ site.data.settings.email }}</span></a>
+                            </li>
+                            <li><a class="href_location" href="#">{{ site.data.settings.address }}</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="{{ site.data.settings.hero.image }} " alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

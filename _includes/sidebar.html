@@ -1,0 +1,37 @@
+<div class="elisc_tm_sidebar">
+    <div class="sidebar_inner">
+        <div class="author">
+            <div class="image">
+                <img src="{{ site.data.settings.thumb.url }}" alt="" />
+                <div class="main" data-img-url="{{ site.data.settings.thumb.data }}"></div>
+            </div>
+            <div class="name">
+                <h3><span>{{ site.data.settings.author }}<span class="back">{{ site.data.settings.author }}</span></span></h3>
+            </div>
+        </div>
+        <div class="menu scrollable">
+            <ul class="anchor_nav">
+                {% for item in site.data.settings.menu %}
+                  {% if forloop.first %}
+                    <li class="current"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                  {% else %}
+                    <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+                  {% endif %}
+                {% endfor %}
+
+            </ul>
+        </div>
+        <div class="copyright">
+            <div class="social">
+                <ul>
+                    {% for item in site.data.settings.social %}
+                      <li><a href="{{ item.link }}"><img class="svg" src="{{ item.icon }}" alt="" /></a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="text">
+                <p>{{ site.data.settings.copyright }}</p>
+            </div>
+        </div>
+    </div>
+</div>

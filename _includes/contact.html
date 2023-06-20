@@ -1,0 +1,86 @@
+<div class="elisc_tm_section" id="contact">
+    <div class="elisc_tm_contact">
+        <div class="tm_content">
+            <div class="wrapper">
+                <div class="left">
+                    <div class="elisc_tm_title">
+                        <span>{{ site.data.settings.contact.title }}</span>
+                        <h3>{{ site.data.settings.contact.subtitle }}</h3>
+                    </div>
+                    <div class="text">
+                        <p>{{ site.data.settings.contact.content }}</p>
+                    </div>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <a href="tel:{{ site.data.settings.phone }}">{{ site.data.settings.contact.phone }}</a>
+                            </li>
+                            <li>
+                                <a href="mailto:{{ site.data.settings.email }}"><span>{{ site.data.settings.email }}</span></a>
+                            </li>
+                            <li>
+                                <a class="href_location" href="#">{{ site.data.settings.location }}</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="fields">
+                        <form id="my-form" action="{{ site.data.settings.contact.form-action }}" method="POST" class="contact_form">
+                           
+                            <div class="first">
+                                <ul>
+                                    <li>
+                                        <input required id="name" type="text" name="name"  placeholder="Enter your name"
+                                            autocomplete="off">
+                                    </li>
+                                    <li>
+                                        <input required id="email" type="email" name="email" placeholder="Your email"
+                                            autocomplete="off">
+                                    </li>
+                                
+                                </ul>
+                            </div>
+                            <div class="last">
+                                <textarea required id="message" name="message" placeholder="Write something..."></textarea>
+                            </div>
+                            <div class="elisc_tm_button">
+                                <button type="submit">{{ site.data.settings.contact.submit }}</button>
+                            </div>
+                        
+                              <p id="my-form-status"></p>
+                          </form>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="elisc_tm_map">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                       <iframe width="100%" height="375" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=California,%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0"
+                            marginwidth="0"></iframe>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 375px;
+                                width: 100%;
+                            }
+                        </style>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 375px;
+                                width: 100%;
+                            }
+                        </style>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

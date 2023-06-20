@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+
+{% include head.html %}
+
+<body>
+
+    {% comment %}
+    this is a comment
+    {% endcomment %}
+    {% include preloader.html %}
+
+
+    <div class="elisc_tm_all_wrap" data-magic-cursor="show">
+        <div class="dodo_tm_one_page_wrapper">
+
+            {% comment %}
+             Topbar
+            {% endcomment %}
+
+
+            {% include topbar.html %}
+            {% include mobile-menu.html %}
+            {% include sidebar.html %}
+
+    
+
+                {% comment %}
+             Mobile Menu
+            {% endcomment %}
+
+            {% comment %}
+             sidebar
+            {% endcomment %}
+
+   
+
+
+            <div class="elisc_tm_mainpart">
+                <div class="mainpart_inner">
+
+                    
+                    {% include hero.html %}
+                    {% include about.html %}
+                    {% include portfolio.html %}
+                    {% include service.html %}
+                    {% include news.html %}
+                    {% include contact.html %}
+                
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mouse-cursor cursor-outer"></div>
+        <div class="mouse-cursor cursor-inner"></div>
+
+    </div>
+
+
+    {% include footer.html %}
+
+</body>
+
+</html>

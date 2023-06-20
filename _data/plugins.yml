@@ -1,0 +1,10 @@
+################ CSS Plugins #####################
+css:
+  - "/assets/css/plugins.css"
+  - "/assets/css/style.css"
+
+################ JS Plugins ######################
+js:
+  - "/assets/js/jquery.js"
+  - "/assets/js/plugins.js"
+  - "/assets/js/init.js"
